@@ -1,35 +1,72 @@
+.col{
+    display: flex;
+    background-color: green;
+}
+.d2{
+    float: right;
+    padding-left: 450px;
+}
 .row{
     width:100%;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 
 input{
     width: 100%;
     border-radius: 7px;
     padding: 5px;
+    border-style: none;
+    border: 1px solid black;
 }
 
 .section{
-    margin: 2px 100px;
+    margin: 2px 200px;
     background-color: rgb(232, 241, 241);
     padding: 10px;
 }
 
 .row h2{
-    font-size: 20px;
-    margin-left:25px;
+    font-size: 18px;
+    margin-left:20px;
 }
 
 .row h1{
     background-color: green;
     color: white;
     padding:20px;
-    margin-top: 20px;
-    width: 103%;
+    margin-top: 10px;
+    width: 105%;
     font-size: 40px;
 }
 
-.gm{
+.row .gm{
     margin-bottom: 30px;
 }
 
+.row p{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+.row h4{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding:20px;
+    margin-top: 10px;
+    width: 103%;
+    font-size: 40px;
+}
+.i1,.i11{
+    width:49%;
+}
+.i2,.i22{
+    width: 32%;
+}
+.i22{
+    margin-left: 11px;
+}
+.i11{
+    margin-left: 11px;
+}
